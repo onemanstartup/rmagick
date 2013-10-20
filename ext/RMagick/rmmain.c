@@ -953,6 +953,8 @@ Init_RMagick2(void)
         ENUMERATOR(Rec709YCbCrColorspace)
         ENUMERATOR(LogColorspace)
         ENUMERATOR(CMYColorspace)
+        ENUMERATOR(HCLColorspace)
+        ENUMERATOR(HCLpColorspace)
     END_ENUM
 
     // ComplianceType constants are defined as enums but used as bit flags
