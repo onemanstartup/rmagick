@@ -429,6 +429,12 @@ ColorspaceType_new(ColorspaceType cs)
         case CMYColorspace:
             name = "CMYColorspace";
             break;
+        case HCLColorspace:
+            name = "HCLColorspace";
+            break;
+        case HCLpColorspace:
+            name = "HCLpColorspace";
+            break;
     }
 
     return rm_enum_new(Class_ColorspaceType, ID2SYM(rb_intern(name)), INT2FIX(cs));
